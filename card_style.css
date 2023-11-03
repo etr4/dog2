@@ -1,0 +1,32 @@
+*{
+ margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit
+}
+.list_wrap ul{
+    font-size: 0;
+}
+.list_wrap .card {
+    width: 30% ;
+    display: inline-block;
+}
+.list_wrap .card .image{
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+}
+
+.list_wrap .card strong{
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+.list_wrap .card a{
+    font-size: 13px;
+    letter-spacing: -1px;
+}

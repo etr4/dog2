@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu_wrap .menu{
+    font-size: 0;
+}
+
+.menu_wrap .menu > li {
+    display: inline-block;
+    width: 100px;
+    background: #ddd;
+    /*부모 폰트크기 0을 상속받아 같이 안보임*/
+    font-size: 16px;
+    text-align: center;
+    vertical-align: top;
+}
+.menu_wrap .menu a{
+    display: block;
+    padding: 10px 0;
+}
+
+.menu_wrap .menu a:hover{
+    background: #325cb2;
+    color: #fff;
+}
+
+.menu_wrap .sub_m{
+    display: none;
+}
+
+.menu_wrap .menu > li:hover > .sub_m{
+    display: block;
+}
+
+
